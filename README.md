@@ -1,5 +1,5 @@
 # JParaCrawl Fine-tuning Example
-This repository includes an example usage of JParaCrawl pre-trained Neural Machine Translation (NMT) models.
+This repository includes an example usage of JParaCrawl pre-trained Neural Machine Translation (NMT) models.  
 Our goal is to train (fine-tune) the domain-adapted NMT model in a few hours.
 
 We wrote this document as beginner-friendly so that many people can try NMT experiments.
@@ -40,7 +40,7 @@ Use the following commands to run.
 Note that you can change `~/jparacrawl-experiments` to the path you want to store the experimental results.
 This will be connected to the container as `/host_disk`.
 ``` sh
-$ docker pull morinoseimorizo/jparacral-fairseq
+$ docker pull morinoseimorizo/jparacrawl-fairseq
 $ docker run -it --gpus 1 -v ~/jparacrawl-experiments:/host_disk jparacrawl-fairseq bash
 ```
 
