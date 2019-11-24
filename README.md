@@ -41,7 +41,7 @@ Note that you can change `~/jparacrawl-experiments` to the path you want to stor
 This will be connected to the container as `/host_disk`.
 ``` sh
 $ docker pull morinoseimorizo/jparacrawl-fairseq
-$ docker run -it --gpus 1 -v ~/jparacrawl-experiments:/host_disk jparacrawl-fairseq bash
+$ docker run -it --gpus 1 -v ~/jparacrawl-experiments:/host_disk morinoseimorizo/jparacrawl-fairseq bash
 ```
 
 
