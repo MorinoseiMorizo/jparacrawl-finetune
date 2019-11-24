@@ -26,7 +26,7 @@ PRETRAINED_MODEL_FILE=$PWD/pretrained_model_$SRC$TRG/base.pretrain.pt
 
 SPM_MODEL=$PWD/corpus/enja_spm_models/spm.$TRG.nopretok.model
 
-CORPUS_DIR=$PWD/corpus
+CORPUS_DIR=$PWD/data
 MODEL_DIR=$PWD/models/$EXP_NAME
 DATA_DIR=$PWD/data-bin/$EXP_NAME
 
